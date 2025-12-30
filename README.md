@@ -9,7 +9,7 @@ A minimal Flask webhook for the WhatsApp Business API that processes incoming me
 - Image search via Unsplash
 - Stable Diffusion image generation + upload via ImgBB
 - Google Sheets balance tracker
-- Utility commands: /help, /ai, /bus timetable, /image, /all, /reminder, /chaitanya, /youtubemp3, /gen, /money, /balance
+- Utility commands: /help, /ai, /bus timetable, /image, /all, /reminder, /youtubemp3, /gen, /money, /balance
 
 ## Requirements
 - Python 3.10+
@@ -66,7 +66,6 @@ Populate these in `.env` (see `.env.example`):
 ## Configuration Notes
 - Google Service Account: Place your service account key as `google_cloud.json` in the project root. Ensure it is git-ignored.
 - Local Paths: Update the hardcoded paths in `app/utils/whatsapp_utils.py`:
-  - `chaitanya_counter_path`: [app/utils/whatsapp_utils.py#L31](app/utils/whatsapp_utils.py#L31)
   - `image_storage_path`: [app/utils/whatsapp_utils.py#L34](app/utils/whatsapp_utils.py#L34)
 - `send_message_outside_app`: Replace the placeholder `GRAPH_API_URL_` string with your actual Graph API URL if you intend to use this function.
 - Google Sheets: Replace `Google_Sheet_ID_Here` in the money functions with your sheet ID directly in code.
