@@ -1,0 +1,12 @@
+flask
+python-dotenv
+google.generativeai
+boto3
+schedule
+aiohttp
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+redis
+pytz

@@ -1,0 +1,15 @@
+app/utils/__pycache__/whatsapp_utils.cpython-311.pyc
+app/utils/__pycache__/mess_menu.cpython-311.pyc
+app/utils/__pycache__/__init__.cpython-311.pyc
+app/decorators/__pycache__/security.cpython-311.pyc
+app/__pycache__/views.cpython-311.pyc
+app/__pycache__/config.cpython-311.pyc
+app/__pycache__/__init__.cpython-311.pyc
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/whatsapp_bot.iml
+.idea/.gitignore
+test.py
+replacements.txt

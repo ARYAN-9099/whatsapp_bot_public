@@ -1,0 +1,2 @@
+python run.py
+ngrok http 8000 --domain feline-unique-bluejay.ngrok-free.app
